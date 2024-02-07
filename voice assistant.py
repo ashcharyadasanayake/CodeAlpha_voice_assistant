@@ -32,7 +32,7 @@ def search(query):
 
 def play_music():
     pygame.mixer.init()
-    pygame.mixer.music.load("D:\music")
+    pygame.mixer.music.load(r"D:\music\song.mp3")
     pygame.mixer.music.play()
 
 def schedule_task():
